@@ -3,6 +3,14 @@
 
 #include <iostream>
 
+
+int add(int x, int y) // x and y created and initialized here
+{
+    int z{ x + y }; // z created and initialized here
+
+    return z;
+}//x,y,z end here.
+
 int getValueFromUser()
 {
     std::cout << "Enter an integer: ";
@@ -34,8 +42,13 @@ int main()
     printDouble(num);
     std::cout << x << " + " << y << " = " << x + y << '\n';
 
+    std::cout << "The sum of 5 and 6 is " <<add(5,6); //5 and 6 replace the x and y values as the arguments in line 7.
+
     //The numbers in the parenthesis are arguments, they replace x and y in the printValues function. 
     printValues(7, 3);
 
     return 0;
 }
+
+//Function parameters, as well as variables defined inside the function body,
+//are called local variables (as opposed to global variables, which we’ll discuss in a future chapter).
