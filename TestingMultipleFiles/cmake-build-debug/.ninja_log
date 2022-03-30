@@ -1,0 +1,4 @@
+# ninja log v5
+0	718	1648660706186793979	CMakeFiles/TestingMultipleFiles.dir/sum.cpp.o	6c3d6f2ee2a4d08
+0	721	1648660706188796188	CMakeFiles/TestingMultipleFiles.dir/main.cpp.o	83f158e30f99e1f4
+721	800	1648660706273663270	TestingMultipleFiles	6a02c4bed74232b6
